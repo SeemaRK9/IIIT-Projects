@@ -1,0 +1,35 @@
+.header {
+  background-color: #222;
+  height: 36px;
+  padding: 8px 32px 8px 16px;
+  display: flex;
+}
+
+.app-logo {
+  animation: app-logo-spin infinite 8s linear;
+  height: 35px;
+  background: #ff7f7f;
+}
+
+@keyframes app-logo-spin {
+  from {
+    transform: scaleX(-1);
+  }
+}
+
+.bookshow-btn {
+  float: right;
+  margin-right: 8px;
+}
+.modal {
+  top: 50%;
+  left: 50%;
+  right: auto;
+  bottom: auto;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+}
+
+.tabs {
+  margin-bottom: 20px;
+}
